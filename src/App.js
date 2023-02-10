@@ -13,12 +13,12 @@ function App() {
   const increment =()=>{
     dispatch(actions.increment());
   };
-  const decrement =()=>{ 
-    dispatch(actions.decrement());
-  };
+  const decrement =()=>
+    dispatch(actions.decrement);
+  
 
   const add = ()=>{
-    dispatch(actions.add(10))
+    dispatch(actions.add)
   }
   return (
     <div className="App">
